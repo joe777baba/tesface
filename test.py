@@ -29,7 +29,8 @@ while True:
         "My Face Detection Project", video_frame
     )  # display the processed frame in a window named "My Face Detection Project"
 
-    result2 = DeepFace.analyze(video_frame, actions = ['emotion'])   
+    
+    result2 = DeepFace.analyze(video_frame, actions = ['emotion'], enforce_detection=False)   
     # print result 
     print(result2)
 
