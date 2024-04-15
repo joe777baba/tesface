@@ -6,7 +6,7 @@ from openai import AzureOpenAI
 
 client = AzureOpenAI(
   azure_endpoint = "https://atcp-genai-hackathon-004.openai.azure.com/", 
-  api_key=os.getenv("981fd1c3fc184f4c9b193b47158df9ae"),  
+  api_key=os.getenv(""),  
   api_version="2024-02-15-preview"
 )
 
